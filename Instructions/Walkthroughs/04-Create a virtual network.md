@@ -25,8 +25,9 @@ In this task, we will create a virtual network.
     | Region | **(US) East US** |
     
    
-4. Click the **Review + create** button. Ensure the validation passes.
-
+4. Click the **Review + create** button. Ensure the validation passes. 
+5. Click Create to create the virtual network.
+6. Monitor the deployment page and the Notifications page.
 
 # Task 2: Create two virtual machines
 
@@ -59,7 +60,7 @@ In this task, we will create two virtual machines in the virtual network.
 
     | Setting | Value |
     | --- | --- |
-    | Resource group | **myRGVNet** |
+    | Resource group | select the same Resource group as mentioned in **Task 2 - Point 2** |
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | **vm2-ip** |
